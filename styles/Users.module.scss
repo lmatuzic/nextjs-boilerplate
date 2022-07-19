@@ -1,0 +1,13 @@
+.users {
+	display: flex;
+	flex-direction: column;
+}
+
+.user {
+	margin-bottom: 0.75rem;
+	transition: color 0.25s ease;
+
+	&:hover {
+		color: rgb(0, 123, 255);
+	}
+}

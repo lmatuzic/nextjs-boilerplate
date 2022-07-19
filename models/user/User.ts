@@ -3,6 +3,12 @@ export interface User {
 	name: string;
 	lastName: string;
 	email: string;
-	role: string;
-	token: string;
+	address: {
+		street: string;
+		suite: string;
+		city: string;
+		zipcode: string;
+	};
+	role?: string;
+	token?: string;
 }
